@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MovieJam/static/css/main.8954789b.chunk.css",
+    "main.js": "/MovieJam/static/js/main.352af7c7.chunk.js",
+    "main.js.map": "/MovieJam/static/js/main.352af7c7.chunk.js.map",
+    "runtime-main.js": "/MovieJam/static/js/runtime-main.bac9b3fd.js",
+    "runtime-main.js.map": "/MovieJam/static/js/runtime-main.bac9b3fd.js.map",
+    "static/js/2.c3efa2d7.chunk.js": "/MovieJam/static/js/2.c3efa2d7.chunk.js",
+    "static/js/2.c3efa2d7.chunk.js.map": "/MovieJam/static/js/2.c3efa2d7.chunk.js.map",
+    "index.html": "/MovieJam/index.html",
+    "static/css/main.8954789b.chunk.css.map": "/MovieJam/static/css/main.8954789b.chunk.css.map",
+    "static/js/2.c3efa2d7.chunk.js.LICENSE.txt": "/MovieJam/static/js/2.c3efa2d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bac9b3fd.js",
+    "static/js/2.c3efa2d7.chunk.js",
+    "static/css/main.8954789b.chunk.css",
+    "static/js/main.352af7c7.chunk.js"
+  ]
+}
