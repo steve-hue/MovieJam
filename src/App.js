@@ -3,6 +3,7 @@ import {ImSearch} from "react-icons/im";
 import { MdLocalMovies,MdOutlineLocalMovies } from "react-icons/md";
 import List from "./List"
 import Alert  from "./Alert"
+import Loading from "./Loading"
 import './App.css';
 
 const getLocalStorage=()=>{
@@ -20,6 +21,7 @@ function App() {
   const [list,setList]=useState(getLocalStorage());  
   const [alert,setAlert]=useState({show:false,msg:"",typ:""})
   const [movies,setMovies]=useState([]);
+  const [loading,setLoading]=useState(true)
   // const [movieName,setMovieName]=useState(null)
 
   function listadd(){
@@ -74,6 +76,7 @@ useEffect(()=>{
 
     const fetchMovies=async()=>{
       const mov=[]
+      setLoading(true)
       for (let i = 1; i < 1000; i++) {
         
       try{
@@ -98,6 +101,7 @@ useEffect(()=>{
       
     }
     setMovies(mov)
+    setLoading(false)
     
     
   }
@@ -106,7 +110,13 @@ useEffect(()=>{
   },[])
   
 
- 
+  if(loading){
+    return(
+      <main className="loading">
+        <Loading />
+      </main>
+    )
+  }
  
  
   return (

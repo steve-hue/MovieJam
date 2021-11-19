@@ -64,6 +64,11 @@ main {
   place-items: center;
 } */
 
+.loading{
+  text-align: center;
+  margin-top:3rem;
+}
+
 .section-center {
   background: var(--clr-white);
   /* background-color: rgb(228, 220, 115); */
@@ -97,6 +102,7 @@ main {
   color: #155724;
   background: #d4edda;
 }
+
 
 
 
